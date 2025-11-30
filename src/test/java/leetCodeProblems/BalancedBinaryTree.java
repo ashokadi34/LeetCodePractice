@@ -45,7 +45,7 @@ public class BalancedBinaryTree {
         root.right.right = new TreeNode(7);
 
         Solution sol = new Solution();
-        System.out.println(sol.isBalanced(root)); // Output: true
+        System.out.println(sol.isBalanced(root)); // Output is : true
 
         // Example: root = [1,2,2,3,3,null,null,4,4]
         TreeNode root2 = new TreeNode(1);
@@ -56,7 +56,7 @@ public class BalancedBinaryTree {
         root2.left.left.left = new TreeNode(4);
         root2.left.left.right = new TreeNode(4);
 
-        System.out.println(sol.isBalanced(root2)); // Output: false
+        System.out.println(sol.isBalanced(root2)); // Output is : false
     }
 }
 
