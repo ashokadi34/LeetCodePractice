@@ -35,7 +35,7 @@ class MyStack {
         MyStack stack = new MyStack();
         Scanner sc = new Scanner(System.in);
         
-        // Test the example
+        // Test the examples
         stack.push(1);
         stack.push(2);
         System.out.println("top(): " + stack.top());     // 2
