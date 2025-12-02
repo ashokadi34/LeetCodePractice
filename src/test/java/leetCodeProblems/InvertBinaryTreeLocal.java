@@ -1,7 +1,5 @@
 package leetCodeProblems;
 
-import java.util.Scanner;
-
 public class InvertBinaryTreeLocal {
 
     // TreeNode definition
@@ -61,10 +59,7 @@ public class InvertBinaryTreeLocal {
         solution.inorderPrint(root);
         System.out.println();
 
-        // Add interactive testing if needed
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Interactive testing not implemented, use the example above.");
-//        sc.close();
+ 
     }
 }
 
