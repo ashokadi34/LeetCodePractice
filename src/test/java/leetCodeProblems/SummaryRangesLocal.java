@@ -75,6 +75,7 @@ public class SummaryRangesLocal {
                 System.out.println("Invalid input, use integers only.");
             }
         }
+        //close
         sc.close();
     }
 }
