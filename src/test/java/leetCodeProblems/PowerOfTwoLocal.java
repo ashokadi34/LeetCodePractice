@@ -19,7 +19,7 @@ public class PowerOfTwoLocal {
             System.out.println(n + " -> " + isPowerOfTwo(n));
         }
 
-        // Interactive testing
+        // Interactive testing scan
         System.out.println("\nEnter integers to test (type 'quit' to exit):");
         while (true) {
             String line = sc.nextLine().trim();
