@@ -83,7 +83,7 @@ public class CountPartitionsLocal {
                 System.out.println("Invalid input, use integers only.");
             }
         }
-        //close
+        //close the scan
         sc.close();
     }
 }
