@@ -62,7 +62,7 @@ public class MyQueue {
                 System.out.println("empty: " + q.empty());
             }
         }
-        sc.close();
+        sc.close(); //close the driver
     }
 }
 
