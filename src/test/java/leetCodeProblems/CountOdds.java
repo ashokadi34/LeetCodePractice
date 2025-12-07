@@ -13,7 +13,7 @@ public class CountOdds {
         System.out.println(countOdds(1, 1));  // 1
         System.out.println(countOdds(0, 10)); // 5 (1,3,5,7,9)
         
-        // Interactive test
+        // Interactive testing
         java.util.Scanner sc = new java.util.Scanner(System.in);
         while(true) {
             System.out.print("Enter low high (or 'quit'): ");
