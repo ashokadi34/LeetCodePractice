@@ -56,7 +56,7 @@ public class PalindromeLinkedListLocal {
         return prev;
     }
 
-    // Helper: build list from array
+    // Helper: build the list from array
     private static ListNode build(int[] arr) {
         ListNode dummy = new ListNode(0);
         ListNode curr = dummy;
