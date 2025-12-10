@@ -21,7 +21,7 @@ public class ValidAnagramLocal {
         // Example 2  
         System.out.println(isAnagram("rat", "car")); // false
         
-        // Edge cases
+        // Few of edge cases
         System.out.println(isAnagram("", "")); // true
         System.out.println(isAnagram("a", "a")); // true
         System.out.println(isAnagram("ab", "ba")); // true [memory:21]
