@@ -1,7 +1,6 @@
 package leetCodeProblems;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -95,7 +94,7 @@ public class BinaryTreePathsLocal {
         TreeNode root3 = buildTree(arr3);
         System.out.println("Extra test output: " + binaryTreePaths(root3));
 
-        // You can also quickly change arrays above for more tests
+        // You can quickly change arrays above for more tests
         System.out.println("Done.");
     }
 }
