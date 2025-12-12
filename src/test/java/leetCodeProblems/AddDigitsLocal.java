@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class AddDigitsLocal {
 
-    // LeetCode-style solution using digital root
+    // solution using digital root
     public static int addDigits(int num) {
         if (num == 0) return 0;
         return (num - 1) % 9 + 1;
     }
 
     public static void main(String[] args) {
-        // Sample tests from LeetCode
+        // Sample tests 
         System.out.println("Example 1: num = 38");
         System.out.println("Output: " + addDigits(38)); // Expected 2
 
