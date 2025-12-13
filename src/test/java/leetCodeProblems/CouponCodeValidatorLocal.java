@@ -33,14 +33,15 @@ public class CouponCodeValidatorLocal {
             return code[i].compareTo(code[j]);
         });
 
-        // build result
+        // build the result
         List<String> res = new ArrayList<>();
         for (int i : idx) {
             res.add(code[i]);
         }
         return res;
     }
-
+    
+//    isValidCode method for validation
     private static boolean isValidCode(String s) {
         if (s == null || s.length() == 0) return false;
         for (int k = 0; k < s.length(); k++) {
