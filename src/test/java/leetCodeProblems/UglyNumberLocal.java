@@ -29,7 +29,8 @@ public class UglyNumberLocal {
             System.out.println("isUgly(" + n + ") = " + isUgly(n));
         }
 
-        // Interactive mode
+        // Interactive mode of testing 
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("\nEnter integers to test isUgly (type 'quit' to exit):");
         while (true) {
