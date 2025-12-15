@@ -14,7 +14,7 @@ public class MissingNumberLocal {
         return missing;
     }
 
-    // Helper: parse space-separated ints from a line
+    // Helper function: parse space-separated ints from a line
     private static int[] parseArray(String line) {
         if (line.trim().isEmpty()) return new int[0];
         String[] parts = line.trim().split("\\s+");
