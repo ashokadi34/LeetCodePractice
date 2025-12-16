@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FirstBadVersionOneFile {
 
-    // Simulated LeetCode VersionControl
+    // Simulated VersionControl
     static class VersionControl {
         protected int bad; // first bad version
 
@@ -17,7 +17,7 @@ public class FirstBadVersionOneFile {
         }
     }
 
-    // LeetCode-style Solution extending VersionControl
+    //  Solution extending VersionControl
     static class Solution extends VersionControl {
 
         public Solution(int bad) {
