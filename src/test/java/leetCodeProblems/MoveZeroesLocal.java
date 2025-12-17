@@ -20,7 +20,7 @@ public class MoveZeroesLocal {
         }
     }
     
-    // Helper to print array
+    // Helper function to print array
     public static void printArray(int[] nums) {
         System.out.print("[");
         for (int i = 0; i < nums.length; i++) {
