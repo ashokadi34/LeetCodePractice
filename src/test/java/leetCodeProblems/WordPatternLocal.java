@@ -40,7 +40,7 @@ public class WordPatternLocal {
         System.out.println(wordPattern("abba", "dog cat cat fish"));  // false
         System.out.println(wordPattern("aaaa", "dog cat cat dog"));   // false
 
-        // Interactive testing
+        // Interactive testing method using scanner class
         Scanner sc = new Scanner(System.in);
         System.out.println("\nInteractive mode (type 'quit' to exit):");
         while (true) {
