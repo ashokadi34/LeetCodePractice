@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NimGameLocal {
 
-    // method
+    // method logic
     public static boolean canWinNim(int n) {
         return n % 4 != 0;
     }
