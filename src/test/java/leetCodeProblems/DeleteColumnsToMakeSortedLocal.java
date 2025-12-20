@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DeleteColumnsToMakeSortedLocal {
 
-    // LeetCode method
+    //  method
     public static int minDeletionSize(String[] strs) {
         int n = strs.length;
         int m = strs[0].length();
@@ -24,7 +24,7 @@ public class DeleteColumnsToMakeSortedLocal {
     }
 
     public static void main(String[] args) {
-        // Fixed tests (LeetCode examples)
+        // Fixed tests (examples)
         String[] ex1 = {"cba", "daf", "ghi"};
         String[] ex2 = {"a", "b"};
         String[] ex3 = {"zyx", "wvu", "tsr"};
