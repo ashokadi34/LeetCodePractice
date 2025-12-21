@@ -5,7 +5,8 @@ import java.util.Scanner;
 class NumArrayLocal {
 
     private int[] prefix;
-
+    
+    // logic
     public NumArrayLocal(int[] nums) {
         int n = nums.length;
         prefix = new int[n + 1];
@@ -29,7 +30,7 @@ class NumArrayLocal {
     }
 
     public static void main(String[] args) {
-        // LeetCode example
+        // example
         int[] nums = {-2, 0, 3, -5, 2, -1};
         NumArrayLocal numArray = new NumArrayLocal(nums);
         
