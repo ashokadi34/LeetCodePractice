@@ -19,8 +19,8 @@ public class PowerOfThreeLocal {
     }
 
     public static void main(String[] args) {
-        // LeetCode examples
-        System.out.println("LeetCode Examples:");
+        // examples
+        System.out.println("Examples:");
         System.out.println("27  -> " + isPowerOfThree(27));     // true
         System.out.println("0   -> " + isPowerOfThree(0));      // false
         System.out.println("-1  -> " + isPowerOfThree(-1));     // false
