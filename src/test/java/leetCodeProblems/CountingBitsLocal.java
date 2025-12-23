@@ -35,7 +35,7 @@ public class CountingBitsLocal {
             System.out.printf("%d (%s) -> %d\n", i, toBinary(i), res2[i]);
         }
 
-        // Interactive mode
+        // Interactive mode of testing
         Scanner sc = new Scanner(System.in);
         System.out.println("\nInteractive mode (type 'q' to quit):");
         while (true) {
