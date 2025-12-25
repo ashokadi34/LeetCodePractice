@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PowerOfFourLocal {
 
-    // method - constant time bit manipulation
+    // method - constant time bit manipulation || method logic 
     public static boolean isPowerOfFour(int n) {
         // must be positive
         if (n <= 0) return false;
