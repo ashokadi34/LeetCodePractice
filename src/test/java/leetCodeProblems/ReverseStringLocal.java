@@ -44,7 +44,7 @@ public class ReverseStringLocal {
         testReverse("", new char[]{});
         testReverse("abcd", new char[]{'a','b','c','d'});
         
-        // Interactive mode
+        // Interactive mode of testing
         System.out.println("\n=== Interactive Mode (type 'quit' to exit) ===");
         while (true) {
             System.out.print("Enter string to reverse: ");
