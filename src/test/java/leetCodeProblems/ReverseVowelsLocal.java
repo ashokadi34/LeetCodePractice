@@ -46,7 +46,7 @@ public class ReverseVowelsLocal {
         test("", "");
         test("a", "a");
         
-        // Interactive mode
+        // Interactive mode of testing
         System.out.println("\n=== Interactive Mode (type 'quit' to exit) ===");
         while (true) {
             System.out.print("Enter string: ");
