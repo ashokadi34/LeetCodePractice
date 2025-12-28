@@ -43,7 +43,7 @@ public class CountNegativesLocal {
         int[][] ex2 = {{3,2},{1,0}};
         test(ex2, 0);
         
-        // Additional test cases
+        // few additional test cases
         System.out.println("\n=== Additional Tests ===");
         test(new int[][]{{1,0,-1}}, 1);
         test(new int[][]{{-1,-1,-1}}, 3);
@@ -51,7 +51,7 @@ public class CountNegativesLocal {
         test(new int[][]{{-5}}, 1);
         test(new int[][]{}, 0);
         
-        // Interactive mode
+        // Interactive mode of testing
         System.out.println("\n=== Interactive Mode (type 'quit' to exit) ===");
         while (true) {
             System.out.print("Enter matrix (rows cols then values, e.g. '2 3 4 3 2 -1 3 2 1 -1' or 'quit'): ");
