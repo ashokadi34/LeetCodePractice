@@ -32,7 +32,7 @@ public class IntersectionOfTwoArraysLocal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // examples
+        // Examples
         System.out.println("=== Examples ===");
         test(new int[]{1,2,2,1}, new int[]{2,2});
         test(new int[]{4,9,5}, new int[]{9,4,9,8,4});
@@ -44,7 +44,7 @@ public class IntersectionOfTwoArraysLocal {
         test(new int[]{}, new int[]{1,2});
         test(new int[]{0,1,2}, new int[]{0,2,4,2});
 
-        // Interactive mode
+        // Interactive mode of testing
         System.out.println("\n=== Interactive Mode (type 'quit' to exit) ===");
         while (true) {
             System.out.print("Enter nums1 (space-separated ints or 'quit'): ");
