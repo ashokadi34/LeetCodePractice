@@ -64,6 +64,7 @@ public class IntersectionOfTwoArrays {
         printArray(sol.intersect(nums1_4, nums2_4));  // Expected: [1,1]
     }
     
+    	// Writing printArray method
     private static void printArray(int[] arr) {
         System.out.print("[");
         for (int i = 0; i < arr.length; i++) {
