@@ -1,6 +1,7 @@
 package leetCodeProblems;
 
 public class ValidPerfectSquare {
+	//method to validate square
     public boolean isPerfectSquare(int num) {
         int left = 1, right = num;
 
