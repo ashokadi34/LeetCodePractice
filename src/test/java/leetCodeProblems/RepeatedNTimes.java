@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class RepeatedNTimes {
+	//functionality
     public int repeatedNTimes(int[] nums) {
         Set<Integer> seen = new HashSet<>();
         
