@@ -21,6 +21,7 @@ public class GuessNumbers  {
         return -1;
     }
     
+    //test cases
     public static void main(String[] args) {
         GuessNumbers sol = new GuessNumbers();
         
