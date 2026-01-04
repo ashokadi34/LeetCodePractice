@@ -21,6 +21,7 @@ public class CanConstruct {
     }
     
     // ==================== LOCAL TESTS ====================
+    // main method
     public static void main(String[] args) {
         CanConstruct sol = new CanConstruct();
         
