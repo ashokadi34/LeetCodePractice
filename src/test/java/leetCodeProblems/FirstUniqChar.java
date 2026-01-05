@@ -21,7 +21,7 @@ public class FirstUniqChar {
         return -1;
     }
     
-    // Local testing
+    // test cases
     public static void main(String[] args) {
         FirstUniqChar sol = new FirstUniqChar();
         System.out.println(sol.firstUniqChar("leetcode"));      // 0
