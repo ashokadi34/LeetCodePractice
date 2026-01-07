@@ -17,7 +17,7 @@ public class FindTheDifference {
     
     // Local testing
     public static void main(String[] args) {
-        FindTheDifference sol = new FindTheDifference();
+        FindTheDifference sol = new FindTheDifference(); 
         
         System.out.println(sol.findTheDifference("abcd", "abcde")); // e
         System.out.println(sol.findTheDifference("", "y"));         // y
