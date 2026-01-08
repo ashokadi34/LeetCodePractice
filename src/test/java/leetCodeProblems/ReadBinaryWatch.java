@@ -3,6 +3,7 @@ package leetCodeProblems;
 import java.util.*;
 
 public class ReadBinaryWatch {
+	//function
     public List<String> readBinaryWatch(int turnedOn) {
         List<String> ans = new ArrayList<>();
         for (int h = 0; h < 12; h++) {
