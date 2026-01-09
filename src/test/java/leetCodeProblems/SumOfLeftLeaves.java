@@ -17,7 +17,7 @@ public class SumOfLeftLeaves {
       }
   }
  
-
+  	//functionality
     public int sumOfLeftLeaves(TreeNode root) {
         if (root == null) return 0;
         
