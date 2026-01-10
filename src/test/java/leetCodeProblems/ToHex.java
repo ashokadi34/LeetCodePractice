@@ -14,7 +14,7 @@ public class ToHex {
         return sb.reverse().toString();
     }
 
-    // Local testing in Eclipse
+    // test methods
     public static void main(String[] args) {
         ToHex sol = new ToHex();
         
