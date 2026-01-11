@@ -19,7 +19,7 @@ public class LongestPalindrome {
         return ans == s.length() ? ans : ans + 1;  // at most one odd
     }
 
-    // Local testing
+    // Test methods
     public static void main(String[] args) {
         LongestPalindrome sol = new LongestPalindrome();
         
