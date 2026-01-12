@@ -11,7 +11,7 @@ public class MinTimeToVisitAllPoints {
         return time;
     }
 
-    // Local testing
+    // test cases
     public static void main(String[] args) {
         MinTimeToVisitAllPoints sol = new MinTimeToVisitAllPoints();
         
