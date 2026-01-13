@@ -19,7 +19,7 @@ public class FizzBuzz {
         return ans;
     }
 
-    // Local testing
+    // testing
     public static void main(String[] args) {
     	FizzBuzz sol = new FizzBuzz();
         
