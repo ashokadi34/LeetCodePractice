@@ -46,7 +46,7 @@ public class AddTwoNumbers {
         return dummyHead.next;
     }
     
-    // Complete local testing - all in one method
+    // local testing - examples
     public static void main(String[] args) {
         AddTwoNumbers sol = new AddTwoNumbers();
         
