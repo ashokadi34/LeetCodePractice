@@ -16,7 +16,8 @@ public class LengthOfLongestSubstring {
         }
         return maxLen;
     }
-
+    
+    //Tests in main method
     public static void main(String[] args) {
         LengthOfLongestSubstring sol = new LengthOfLongestSubstring();
         
