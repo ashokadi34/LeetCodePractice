@@ -44,7 +44,7 @@ public class MaximizeSquareArea {
         return diffs;
     }
 
-    // Local testing in same single file/class
+    // test cases
     public static void main(String[] args) {
         MaximizeSquareArea sol = new MaximizeSquareArea();
 
