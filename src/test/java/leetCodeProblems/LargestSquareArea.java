@@ -40,6 +40,7 @@ public class LargestSquareArea {
         return maxArea;
     }
     
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         int[][] bottomLeft1 = {{1,1},{2,2},{3,1}};
