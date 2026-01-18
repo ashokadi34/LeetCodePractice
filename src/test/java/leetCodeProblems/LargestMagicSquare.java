@@ -67,6 +67,7 @@ public class LargestMagicSquare {
         return true;
     }
     
+    //Test cases
     public static void main(String[] args) {
         LargestMagicSquare sol = new LargestMagicSquare();
         
