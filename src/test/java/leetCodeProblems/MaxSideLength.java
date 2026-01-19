@@ -42,15 +42,16 @@ public class MaxSideLength {
         return false;
     }
     
+    //Test cases
     public static void main(String[] args) {
         MaxSideLength sol = new MaxSideLength();
         
         // Example 1
         int[][] mat1 = {{1,1,3,2,4,3,2},{1,1,3,2,4,3,2},{1,1,3,2,4,3,2}};
-        System.out.println("Example 1: " + sol.maxSideLength(mat1, 4));  // 2
+        System.out.println("Example 1: " + sol.maxSideLength(mat1, 4));  // Output:2
         
         // Example 2
         int[][] mat2 = {{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2},{2,2,2,2,2}};
-        System.out.println("Example 2: " + sol.maxSideLength(mat2, 1));  // 0
+        System.out.println("Example 2: " + sol.maxSideLength(mat2, 1));  // Output:0
     }
 }
