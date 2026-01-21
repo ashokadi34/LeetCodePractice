@@ -31,6 +31,7 @@ public class ZigzagConversion {
         return result.toString();
     }
     
+    //test cases
     public static void main(String[] args) {
         ZigzagConversion sol = new ZigzagConversion();
         
