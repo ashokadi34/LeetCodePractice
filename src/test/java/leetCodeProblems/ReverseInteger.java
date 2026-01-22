@@ -15,23 +15,29 @@ public class ReverseInteger {
         return rev;
     }
     
+    //Test cases
     public static void main(String[] args) {
         ReverseInteger sol = new ReverseInteger();
         
         // Example 1: x = 123 → 321
-        System.out.println(sol.reverse(123));  // Output: 321
+        System.out.println("Input: 123");
+        System.out.println("Output: "+sol.reverse(123));  // Output: 321
         
         // Example 2: x = -123 → -321
-        System.out.println(sol.reverse(-123));  // Output: -321
+        System.out.println("Input: -123");
+        System.out.println("Output: "+sol.reverse(-123));  // Output: -321
         
         // Example 3: x = 120 → 21
-        System.out.println(sol.reverse(120));  // Output: 21
+        System.out.println("Input: 120");
+        System.out.println("Output: "+sol.reverse(120));  // Output: 21
         
         // Overflow test: x = 2147483647 → 0
-        System.out.println(sol.reverse(2147483647));  // Output: 0
+        System.out.println("Input: 2147483647");
+        System.out.println("Output: "+sol.reverse(2147483647));  // Output: 0
         
         // Overflow test: x = -2147483648 → 0
-        System.out.println(sol.reverse(-2147483648));  // Output: 0
+        System.out.println("Input: -2147483648");
+        System.out.println("Output: "+sol.reverse(-2147483648));  // Output: 0
     }
 }
 
