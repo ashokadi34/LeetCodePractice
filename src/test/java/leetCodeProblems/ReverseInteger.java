@@ -15,7 +15,7 @@ public class ReverseInteger {
         return rev;
     }
     
-    //Test cases
+    //Few test cases
     public static void main(String[] args) {
         ReverseInteger sol = new ReverseInteger();
         
