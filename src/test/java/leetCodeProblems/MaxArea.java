@@ -24,19 +24,23 @@ public class MaxArea {
         return maxArea;
     }
     
+    //Test cases
     public static void main(String[] args) {
         MaxArea sol = new MaxArea();
         
         // Example 1: [1,8,6,2,5,4,8,3,7] → 49
         int[] height1 = {1,8,6,2,5,4,8,3,7};
+        System.out.println(Arrays.toString(height1));
         System.out.println(sol.maxArea(height1));  // 49
         
         // Example 2: [1,1] → 1
         int[] height2 = {1,1};
+        System.out.println(Arrays.toString(height2));
         System.out.println(sol.maxArea(height2));  // 1
         
         // Additional test: [4,3,2,1,4] → 16 (0+4)
         int[] height3 = {4,3,2,1,4};
+        System.out.println(Arrays.toString(height3));
         System.out.println(sol.maxArea(height3));  // 16
     }
 }
