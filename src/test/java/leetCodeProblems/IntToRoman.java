@@ -16,16 +16,20 @@ public class IntToRoman {
         return result.toString();
     }
     
+    //test cases
     public static void main(String[] args) {
         IntToRoman sol = new IntToRoman();
         
         // Example 1: 3749 → MMMDCCXLIX
+        System.out.println("3749");
         System.out.println(sol.intToRoman(3749));  // MMMDCCXLIX
         
         // Example 2: 58 → LVIII
+        System.out.println("58");
         System.out.println(sol.intToRoman(58));  // LVIII
         
         // Example 3: 1994 → MCMXCIV
+        System.out.println("1994");
         System.out.println(sol.intToRoman(1994));  // MCMXCIV
         
         // Additional tests
