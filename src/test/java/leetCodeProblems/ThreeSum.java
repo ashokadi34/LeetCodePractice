@@ -39,6 +39,7 @@ public class ThreeSum {
         return result;
     }
     
+    //Test cases
     public static void main(String[] args) {
         ThreeSum sol = new ThreeSum();
         
