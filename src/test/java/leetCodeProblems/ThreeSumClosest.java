@@ -30,6 +30,7 @@ public class ThreeSumClosest {
         return closestSum;
     }
     
+    //Test cases
     public static void main(String[] args) {
         ThreeSumClosest sol = new ThreeSumClosest();
         
