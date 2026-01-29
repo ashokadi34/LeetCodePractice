@@ -28,8 +28,8 @@ public class PhoneCombinations {
         }
     }
 
+    // Test cases
     public static void main(String[] args) {
-        // Test cases
         System.out.println(letterCombinations("23"));  // [ad, ae, af, bd, be, bf, cd, ce, cf]
         System.out.println(letterCombinations("2"));   // [a, b, c]
         System.out.println(letterCombinations(""));    // []
