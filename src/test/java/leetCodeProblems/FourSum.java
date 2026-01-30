@@ -38,6 +38,7 @@ public class FourSum {
         return result;
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         int[] nums1 = {1, 0, -1, 0, -2, 2};
