@@ -26,6 +26,7 @@ public class GenerateParentheses {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         System.out.println("n = 3:");
