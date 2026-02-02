@@ -45,6 +45,7 @@ public class SwapPairs {
         return dummy.next;
     }
 
+    //Function
     public static ListNode buildList(int[] arr) {
         if (arr.length == 0) return null;
         ListNode head = new ListNode(arr[0]);
@@ -56,6 +57,7 @@ public class SwapPairs {
         return head;
     }
 
+    //test cases
     public static void main(String[] args) {
         int[] arr1 = {1,2,3,4};
         System.out.println("Input: [1,2,3,4]");
