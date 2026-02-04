@@ -18,6 +18,7 @@ public class NextPermutation {
         reverse(nums, i + 1);
     }
     
+    
     private static void swap(int[] nums, int a, int b) {
         int temp = nums[a];
         nums[a] = nums[b];
@@ -33,6 +34,7 @@ public class NextPermutation {
         }
     }
     
+  //Test cases
     public static void main(String[] args) {
         // Example 1: [1,2,3] -> [1,3,2]
         int[] nums1 = {1,2,3};
