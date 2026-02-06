@@ -17,6 +17,7 @@ public class MinimumRemovalsToBalanceArray {
         return n - maxLen;
     }
     
+    //Test Cases
     public static void main(String[] args) {
         // Example 1: [2,1,5], k=2 → remove 1
         int[] nums1 = {2,1,5};
