@@ -10,6 +10,7 @@ public class FindFirstLastPositionSortedArray {
         return new int[]{left, right};
     }
     
+    //findFirst logic
     private static int findFirst(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
         while (low <= high) {
@@ -23,6 +24,7 @@ public class FindFirstLastPositionSortedArray {
         return (low < nums.length && nums[low] == target) ? low : -1;
     }
     
+    //findLast logic
     private static int findLast(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
         while (low <= high) {
@@ -36,6 +38,7 @@ public class FindFirstLastPositionSortedArray {
         return (high >= 0 && nums[high] == target) ? high : -1;
     }
     
+    //Test Cases
     public static void main(String[] args) {
         // Example 1: [5,7,7,8,8,10], target=8 → [3,4]
         int[] nums1 = {5,7,7,8,8,10};
