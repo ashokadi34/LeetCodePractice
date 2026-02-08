@@ -28,7 +28,7 @@ public class ValidSudoku {
         }
         return true;
     }
-    
+    //Test cases
     public static void main(String[] args) {
         // Example 1: Valid board
         char[][] board1 = {
