@@ -19,6 +19,7 @@ public class CountAndSay {
         return curr;
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1: n = 4
         System.out.println("n=4: " + countAndSay(4));  // "1211"
