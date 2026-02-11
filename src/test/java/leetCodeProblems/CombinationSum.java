@@ -38,6 +38,7 @@ public class CombinationSum {
         System.out.println("]");
     }
 
+    //Test Cases
     public static void main(String[] args) {
         // Example 1
         int[] cand1 = {2,3,6,7};
