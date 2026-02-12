@@ -1,7 +1,7 @@
 package leetCodeProblems;
 
 public class LongestBalancedSubstring {
-    public static int longestBalanced(String s) {
+    public static int longestBalanced(String s) { //function
         int n = s.length();
         int ans = 0;
         for (int i = 0; i < n; ++i) {
@@ -25,6 +25,8 @@ public class LongestBalancedSubstring {
         return ans;
     }
 
+    
+    //Test Cases
     public static void main(String[] args) {
         // Example 1
         String s1 = "abbac";
