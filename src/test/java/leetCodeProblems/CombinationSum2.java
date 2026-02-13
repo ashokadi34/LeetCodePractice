@@ -10,6 +10,7 @@ public class CombinationSum2 {
         return ans;
     }
     
+    //backtracking
     private static void backtrack(List<List<Integer>> ans, List<Integer> comb, int[] cand, int tar, int start) {
         if (tar == 0) {
             ans.add(new ArrayList<>(comb));
@@ -39,6 +40,7 @@ public class CombinationSum2 {
         System.out.println("]");
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         int[] cand1 = {10,1,2,7,6,1,5};
