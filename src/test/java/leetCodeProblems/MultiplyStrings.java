@@ -22,6 +22,7 @@ public class MultiplyStrings {
         return sb.length() == 0 ? "0" : sb.toString();
     }
 
+    //Test Cases
     public static void main(String[] args) {
         // Example 1
         String num1_1 = "2", num2_1 = "3";
