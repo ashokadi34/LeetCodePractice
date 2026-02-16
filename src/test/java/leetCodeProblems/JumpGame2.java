@@ -14,6 +14,7 @@ public class JumpGame2 {
         return jumps;
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         int[] nums1 = {2,3,1,1,4};
