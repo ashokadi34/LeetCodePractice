@@ -32,6 +32,7 @@ public class Permute {
         nums[j] = temp;
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1: nums = [1,2,3]
         int[] nums1 = {1, 2, 3};
