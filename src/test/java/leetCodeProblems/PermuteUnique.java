@@ -11,6 +11,7 @@ public class PermuteUnique {
         return result;
     }
     
+    //Backtrace
     private static void backtrack(int[] nums, boolean[] used, List<Integer> current, List<List<Integer>> result) {
         if (current.size() == nums.length) {
             result.add(new ArrayList<>(current));
@@ -31,6 +32,7 @@ public class PermuteUnique {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1: nums = [1,1,2]
         int[] nums1 = {1, 1, 2};
