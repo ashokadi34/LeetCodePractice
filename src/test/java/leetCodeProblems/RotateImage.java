@@ -32,6 +32,7 @@ public class RotateImage {
         System.out.println();
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         int[][] matrix1 = {{1,2,3},{4,5,6},{7,8,9}};
