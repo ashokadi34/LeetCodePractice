@@ -29,6 +29,7 @@ public class SpiralMatrixLocal {
         }
     }
 
+    //Method for printMatrix
     public static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             System.out.print("[");
@@ -49,6 +50,7 @@ public class SpiralMatrixLocal {
         System.out.println("]");
     }
 
+    //Local Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
