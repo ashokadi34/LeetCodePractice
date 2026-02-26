@@ -22,6 +22,7 @@ public class JumpGameLocal {
         System.out.println("]");
     }
 
+    //Test Cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
