@@ -49,6 +49,7 @@ public class SpiralMatrixIILocal {
         System.out.println();
     }
     
+    //Test cases
     public static void main(String[] args) {
         // Example 1: n=3
         int[][] result1 = generateMatrix(3);
