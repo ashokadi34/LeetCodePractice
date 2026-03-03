@@ -16,6 +16,7 @@ public class FindKthBitLocal {
         return dfs(n - 1, len - k) ^ 1;
     }
     
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         System.out.println("n=3, k=1: " + findKthBit(3, 1));  // "0"
