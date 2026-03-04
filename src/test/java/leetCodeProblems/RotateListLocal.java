@@ -21,6 +21,7 @@ public class RotateListLocal {
         }
     }
     
+    //Function rotateRight
     public static ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null || k == 0) return head;
         
@@ -64,6 +65,7 @@ public class RotateListLocal {
         return head;
     }
     
+    //Local test cases
     public static void main(String[] args) {
         // Example 1
         ListNode head1 = createList(new int[]{1,2,3,4,5});
