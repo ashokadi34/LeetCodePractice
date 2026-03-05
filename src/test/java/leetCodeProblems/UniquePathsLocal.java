@@ -14,6 +14,7 @@ public class UniquePathsLocal {
         return dp[n - 1];
     }
     
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         System.out.println("m=3, n=7: " + uniquePaths(3, 7));  // 28
