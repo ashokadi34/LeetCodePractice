@@ -29,6 +29,7 @@ public class UniquePathsIILocal {
         System.out.println();
     }
     
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         int[][] grid1 = {{0,0,0},{0,1,0},{0,0,0}};
