@@ -37,6 +37,7 @@ public class MinimumPathSumLocal {
         System.out.println();
     }
     
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         int[][] grid1 = {{1,3,1},{1,5,1},{4,2,1}};
