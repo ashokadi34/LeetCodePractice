@@ -25,7 +25,7 @@ class simplifyPath {
         return sb.length() == 1 ? "/" : sb.toString();
     }
     
-    // Test locally
+    // Test case
     public static void main(String[] args) {
     	simplifyPath sol = new simplifyPath();
         String[] tests = {
