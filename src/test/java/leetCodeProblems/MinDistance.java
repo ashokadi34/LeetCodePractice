@@ -22,7 +22,7 @@ class MinDistance {
         return dp[m][n];
     }
     
-    // Local testing
+    //test cases
     public static void main(String[] args) {
     	MinDistance sol = new MinDistance();
         String[][] tests = {
