@@ -37,12 +37,12 @@ class SetZeroes {
     public static void main(String[] args) {
     	SetZeroes sol = new SetZeroes();
         
-        // Test 1
+        // Test case 1
         int[][] m1 = {{1,1,1},{1,0,1},{1,1,1}};
         sol.setZero(m1);
         printMatrix(m1);
         
-        // Test 2  
+        // Test case 2  
         int[][] m2 = {{0,1,2,0},{3,4,5,2},{1,3,1,5}};
         sol.setZero(m2);
         printMatrix(m2);
