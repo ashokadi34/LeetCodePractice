@@ -26,6 +26,7 @@ class SortColorss {
         nums[j] = temp;
     }
     
+    //Test case
     public static void main(String[] args) {
     	SortColorss sol = new SortColorss();
         int[] nums = {2,0,2,1,1,0};
