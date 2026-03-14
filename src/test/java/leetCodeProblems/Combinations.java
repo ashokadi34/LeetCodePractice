@@ -39,6 +39,7 @@ public class Combinations {
         printCombinations(sol.combine(3, 2));
     }
     
+    //printCombinations
     static void printCombinations(List<List<Integer>> combos) {
         for (List<Integer> combo : combos) {
             System.out.print("[");
