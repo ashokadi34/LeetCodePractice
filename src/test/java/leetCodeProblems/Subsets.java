@@ -18,7 +18,7 @@ public class Subsets {
         }
     }
     
-    // ========== LOCAL TESTING ==========
+    // Test cases
     public static void main(String[] args) {
     	Subsets sol = new Subsets();
         
