@@ -35,7 +35,7 @@ public class WordSearchLocal {
             }
             return false;
         }
-
+        //dfs
         private boolean dfs(char[][] board, String word, int idx,
                             int row, int col, boolean[][] visited) {
             if (idx == word.length()) {
@@ -64,6 +64,7 @@ public class WordSearchLocal {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
