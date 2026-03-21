@@ -21,6 +21,7 @@ public class RemoveDuplicatesListLocal {
         }
     }
     
+    //deleteDuplicates
     static class Solution {
         public ListNode deleteDuplicates(ListNode head) {
             ListNode dummy = new ListNode(0, head);
@@ -45,6 +46,7 @@ public class RemoveDuplicatesListLocal {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
