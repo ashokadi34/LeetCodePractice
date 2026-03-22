@@ -60,7 +60,7 @@ public class PartitionList {
         System.out.println();
     }
 
-    // Test in main
+    // Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
