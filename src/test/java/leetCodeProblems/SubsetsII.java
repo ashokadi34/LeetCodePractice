@@ -12,6 +12,7 @@ public class SubsetsII {
             return result;
         }
 
+        //backtrack
         private void backtrack(int[] nums, int index, List<Integer> path, List<List<Integer>> result) {
             result.add(new ArrayList<>(path));
 
@@ -36,6 +37,7 @@ public class SubsetsII {
         System.out.println("]");
     }
 
+    //Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
