@@ -5,6 +5,7 @@ import java.util.List;
 
 public class RestoreIPAddresses {
 
+	//restoreIpAddresses
     public static class Solution {
         public List<String> restoreIpAddresses(String s) {
             List<String> result = new ArrayList<>();
@@ -48,6 +49,7 @@ public class RestoreIPAddresses {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
