@@ -2,6 +2,7 @@ package leetCodeProblems;
 
 public class InterleavingString {
 
+	//isInterleave
     static class Solution {
         public boolean isInterleave(String s1, String s2, String s3) {
             int m = s1.length(), n = s2.length();
@@ -34,6 +35,7 @@ public class InterleavingString {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
 
