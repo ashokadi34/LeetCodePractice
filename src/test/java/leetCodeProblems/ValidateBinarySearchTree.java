@@ -20,6 +20,7 @@ public class ValidateBinarySearchTree {
         }
     }
 
+    //isValidBST
     public boolean isValidBST(TreeNode root) {
         return validate(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
@@ -37,6 +38,7 @@ public class ValidateBinarySearchTree {
                validate(node.right, node.val, max);
     }
 
+    //Test cases
     public static void main(String[] args) {
     	ValidateBinarySearchTree sol = new ValidateBinarySearchTree();
 
