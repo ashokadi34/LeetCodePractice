@@ -25,6 +25,7 @@ public class DecodeCiphertext {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         Solution sol = new Solution();
         
