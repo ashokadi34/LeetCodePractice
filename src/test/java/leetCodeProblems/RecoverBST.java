@@ -19,6 +19,7 @@ public class RecoverBST {
         }
     }
 
+    //Function
     static class Solution {
         private TreeNode prev;
         private TreeNode first;
@@ -57,6 +58,7 @@ public class RecoverBST {
         }
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1: [1,3,null,null,2]
         TreeNode root1 = new TreeNode(1);
