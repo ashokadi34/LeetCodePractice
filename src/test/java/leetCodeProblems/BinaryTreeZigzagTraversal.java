@@ -53,7 +53,7 @@ public class BinaryTreeZigzagTraversal {
     }
 }
 
-// Local test class
+//Test cases
 class Main {
     public static void main(String[] args) {
         // Example 1
