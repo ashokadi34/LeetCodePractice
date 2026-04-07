@@ -15,6 +15,7 @@ class TreeNode {
     }
 }
 
+//BinaryTreeZigzagTraversal
 public class BinaryTreeZigzagTraversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
