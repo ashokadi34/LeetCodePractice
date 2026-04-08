@@ -37,6 +37,8 @@ public class XorAfterQueriesClass {
      }
      return answer;
  }
+ 
+ //Test cases
  public static void main(String[] args) {
 	 XorAfterQueriesClass sol = new XorAfterQueriesClass();
 
