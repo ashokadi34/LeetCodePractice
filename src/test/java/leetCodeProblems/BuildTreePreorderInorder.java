@@ -17,8 +17,6 @@ class TreeNode {
 }
 */
 
-import leetCodePractice.BalancedBinaryTree.TreeNode;
-
 public class BuildTreePreorderInorder {
  private int[] preorder;
  private Map<Integer, Integer> inorderIndexMap = new HashMap<>();
@@ -60,7 +58,7 @@ public class BuildTreePreorderInorder {
  }
 
 
-
+//Test cases
  public static void main(String[] args) {
 	 BuildTreePreorderInorder sol = new BuildTreePreorderInorder();
      
