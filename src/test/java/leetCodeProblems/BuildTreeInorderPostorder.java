@@ -57,6 +57,7 @@ class BuildTreeInorderPostorder {
      return new TreeNode(rootVal, leftChild, rightChild);
  }
 
+ //Test cases
  public static void main(String[] args) {
 	 BuildTreeInorderPostorder sol = new BuildTreeInorderPostorder();
      
