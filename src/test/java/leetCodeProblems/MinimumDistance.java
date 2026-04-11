@@ -36,6 +36,7 @@ public class MinimumDistance {
         return answer == Integer.MAX_VALUE ? -1 : answer;
     }
     
+    //Test cases
     public static void main(String[] args) {
        
         // Example 1 → 6
