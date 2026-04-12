@@ -19,7 +19,7 @@ class TreeNode {
 */
 
 public class LevelOrderBottom {
- public List<List<Integer>> levelOrderBottom(TreeNode root) {
+ public static List<List<Integer>> levelOrderBottom(TreeNode root) {
      List<List<Integer>> result = new LinkedList<>();  // Deque for O(1) addFirst
      
      if (root == null) {
@@ -53,7 +53,6 @@ public class LevelOrderBottom {
  }
  
  public static void main(String[] args) {
-	 LevelOrderBottom sol = new LevelOrderBottom();
      
      // Example 1 → [[15,7],[9,20],[3]]
      TreeNode root1 = new TreeNode(3);
@@ -61,14 +60,14 @@ public class LevelOrderBottom {
      root1.right = new TreeNode(20);
      root1.right.left = new TreeNode(15);
      root1.right.right = new TreeNode(7);
-     System.out.println(sol.levelOrderBottom(root1));
+     System.out.println(levelOrderBottom(root1));
      
      // Example 2 → [[1]]
      TreeNode root2 = new TreeNode(1);
-     System.out.println(sol.levelOrderBottom(root2));
+     System.out.println(levelOrderBottom(root2));
      
      // Example 3 → []
-     System.out.println(sol.levelOrderBottom(null));
+     System.out.println(levelOrderBottom(null));
  
  }
 }
