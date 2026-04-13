@@ -15,7 +15,7 @@ public class SortedListToBST {
     }
     
     private static ListNode curr;
-    
+    //sortedListToBST
     public static TreeNode sortedListToBST(ListNode head) {
         if (head == null) return null;
         
@@ -49,7 +49,6 @@ public class SortedListToBST {
     // For local testing
     public static void main(String[] args) {
        
-        
         // Example 1: head = [-10,-3,0,5,9]
         ListNode head1 = new ListNode(-10);
         head1.next = new ListNode(-3);
