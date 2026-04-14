@@ -11,13 +11,13 @@ public class PathSumII {
         }
     }
 
-    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+    public static List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> result = new ArrayList<>();
         dfs(root, targetSum, new ArrayList<>(), result);
         return result;
     }
 
-    private void dfs(TreeNode node, int remaining, List<Integer> path, List<List<Integer>> result) {
+    private static void dfs(TreeNode node, int remaining, List<Integer> path, List<List<Integer>> result) {
         if (node == null) return;
 
         path.add(node.val);
@@ -34,7 +34,7 @@ public class PathSumII {
     }
 
     public static void main(String[] args) {
-    	PathSumII sol = new PathSumII();
+    	
 
         TreeNode root = new TreeNode(5);
         root.left = new TreeNode(4);
@@ -47,7 +47,7 @@ public class PathSumII {
         root.right.right.left = new TreeNode(5);
         root.right.right.right = new TreeNode(1);
 
-        List<List<Integer>> ans = sol.pathSum(root, 22);
+        List<List<Integer>> ans = pathSum(root, 22);
         System.out.println(ans); // [[5, 4, 11, 2], [5, 8, 4, 5]]
     }
 }
