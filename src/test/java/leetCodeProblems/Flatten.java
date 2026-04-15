@@ -17,7 +17,7 @@ public class Flatten {
         }
     }
     
-    public void flatten(TreeNode root) {
+    public static void flatten(TreeNode root) {
         TreeNode curr = root;
         while (curr != null) {
             if (curr.left != null) {
@@ -61,8 +61,8 @@ public class Flatten {
         System.out.println("Output flattened: " + flattened);
     }
     
+    //Test cases
     public static void main(String[] args) {
-        Flatten sol = new Flatten();
         
         System.out.println("=== Example 1 ===");
         TreeNode root1 = new TreeNode(1);
@@ -73,18 +73,18 @@ public class Flatten {
         root1.right.right = new TreeNode(6);
         
         printTree(root1);
-        sol.flatten(root1);
+        flatten(root1);
         printFlattened(root1);
         
         System.out.println("\n=== Example 2 (Empty) ===");
         printTree(null);
-        sol.flatten(null);
+       flatten(null);
         printFlattened(null);
         
         System.out.println("\n=== Example 3 (Single Node) ===");
         TreeNode root3 = new TreeNode(0);
         printTree(root3);
-        sol.flatten(root3);
+       flatten(root3);
         printFlattened(root3);
     }
 }
