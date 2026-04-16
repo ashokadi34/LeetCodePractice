@@ -77,6 +77,7 @@ public class NextRightPointer {
         System.out.println("[" + String.join(",", result) + "]");
     }
     
+    // Test cases
     public static void main(String[] args) {
         NextRightPointer sol = new NextRightPointer();
         
