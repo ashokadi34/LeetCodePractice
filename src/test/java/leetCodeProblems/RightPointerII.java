@@ -1,7 +1,7 @@
 package leetCodeProblems;
 
 import java.util.*;
-
+/*
 class Node {
     int val;
     Node left, right, next;
@@ -14,7 +14,7 @@ class Node {
         this.val = val; this.left = left; this.right = right; this.next = next;
     }
 }
-
+*/
 public class RightPointerII {
     public Node connect(Node root) {
         Node head = root;
