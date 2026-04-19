@@ -16,6 +16,8 @@ public class MaxDistance {
         return ans;
     }
     
+    
+    //Test Cases
     public static void main(String[] args) {
         MaxDistance sol = new MaxDistance();
         
