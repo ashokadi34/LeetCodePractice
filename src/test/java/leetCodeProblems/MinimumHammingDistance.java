@@ -71,7 +71,7 @@ class MinimumHammingDistance {
         }
     }
 
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
     	MinimumHammingDistance sol = new MinimumHammingDistance();
 
