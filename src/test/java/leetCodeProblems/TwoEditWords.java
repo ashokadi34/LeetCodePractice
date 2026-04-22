@@ -25,7 +25,7 @@ public class TwoEditWords {
         return result;
     }
 
-    // Main method for local testing
+    // Main method for local test cases
     public static void main(String[] args) {
         TwoEditWords sol = new TwoEditWords();
 
