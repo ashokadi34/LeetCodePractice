@@ -35,7 +35,7 @@ public class SumOfDistance {
         return ans;
     }
 
-    // Main method for local testing
+    // Main method for local test cases
     public static void main(String[] args) {
         SumOfDistance sol = new SumOfDistance();
 
