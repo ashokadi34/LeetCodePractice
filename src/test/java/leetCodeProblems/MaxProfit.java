@@ -11,7 +11,7 @@ public class MaxProfit {
         return profit;
     }
 
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
         MaxProfit sol = new MaxProfit();
 
