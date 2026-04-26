@@ -45,7 +45,7 @@ public class ContainsCycle {
         return false;
     }
 
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
         ContainsCycle sol = new ContainsCycle();
 
