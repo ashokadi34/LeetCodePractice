@@ -57,7 +57,7 @@ public class HasValidPath {
         return t == 1 || t == 4 || t == 6;
     }
     
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
         HasValidPath sol = new HasValidPath();
         
