@@ -30,7 +30,7 @@ public class MinOperations {
         return ops;
     }
 
-    // Main method for local testing
+    //Test cases
     public static void main(String[] args) {
         MinOperations sol = new MinOperations();
 
