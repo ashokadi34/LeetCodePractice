@@ -29,7 +29,7 @@ public class LongestConsecutive {
         return maxLen;
     }
 
-    // Main method for local testing
+    //Test cases
     public static void main(String[] args) {
         LongestConsecutive sol = new LongestConsecutive();
         
