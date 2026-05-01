@@ -23,7 +23,7 @@ public class MaxRotateFunction {
         return (int) max;
     }
 
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
         MaxRotateFunction sol = new MaxRotateFunction();
 
