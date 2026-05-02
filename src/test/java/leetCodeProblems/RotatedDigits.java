@@ -24,7 +24,7 @@ public class RotatedDigits {
         return changed;
     }
 
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
     	RotatedDigits sol = new RotatedDigits();
         System.out.println(sol.rotatedDigits(10)); // 4
