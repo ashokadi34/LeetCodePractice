@@ -30,7 +30,7 @@ public class SumNumbers {
      return dfs(node.left, currentSum) + dfs(node.right, currentSum);
  }
 
- // Main method for local testing
+ // Test cases
  public static void main(String[] args) {
      SumNumbers sol = new SumNumbers();
      
