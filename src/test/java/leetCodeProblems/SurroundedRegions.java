@@ -44,7 +44,7 @@ public class SurroundedRegions {
         dfs(board, i, j-1);
     }
 
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
         SurroundedRegions sol = new SurroundedRegions();
         
