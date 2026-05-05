@@ -35,7 +35,7 @@ public class PalindromePartitioning {
         return true;
     }
 
-    // Main method for local testing
+    // Test cases
     public static void main(String[] args) {
         PalindromePartitioning sol = new PalindromePartitioning();
         System.out.println(sol.partition("aab")); // [[a, a, b], [aa, b]]
