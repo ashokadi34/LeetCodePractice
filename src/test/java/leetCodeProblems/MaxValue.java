@@ -38,7 +38,7 @@ public class MaxValue {
         return ans;
     }
 
-    // Main method for local testing
+    // Local test cases
     public static void main(String[] args) {
         MaxValue sol = new MaxValue();
         int[] nums1 = {2, 1, 3};
