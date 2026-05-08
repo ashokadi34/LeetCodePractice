@@ -83,7 +83,7 @@ public class MinJumps {
         return dist[n - 1];
     }
 
-    // Main for local testing
+    // Test cases
     public static void main(String[] args) {
         MinJumps sol = new MinJumps();
         System.out.println(sol.minJumps(new int[]{1,2,4,6}));       // 2
