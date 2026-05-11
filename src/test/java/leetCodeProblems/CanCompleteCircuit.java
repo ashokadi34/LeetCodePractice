@@ -18,6 +18,7 @@ public class CanCompleteCircuit {
         return total < 0 ? -1 : start;
     }
 
+    //Test cases
     public static void main(String[] args) {
         CanCompleteCircuit sol = new CanCompleteCircuit();
 
