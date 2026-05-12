@@ -26,6 +26,7 @@ public class ThirdMax {
         return third == null ? first.intValue() : third.intValue();
     }
 
+    //Test cases
     public static void main(String[] args) {
         ThirdMax sol = new ThirdMax();
 
