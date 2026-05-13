@@ -23,6 +23,7 @@ public class AddStrings {
         return sb.reverse().toString();
     }
 
+    //Test cases
     public static void main(String[] args) {
         AddStrings sol = new AddStrings();
 
