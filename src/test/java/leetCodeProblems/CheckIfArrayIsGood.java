@@ -22,6 +22,7 @@ public class CheckIfArrayIsGood {
         return true;
     }
 
+    //Test cases
     public static void main(String[] args) {
         // Example 1
         System.out.println(isGood(new int[]{2, 1, 3}));     // false
