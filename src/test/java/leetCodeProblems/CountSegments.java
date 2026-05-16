@@ -11,6 +11,7 @@ public class CountSegments {
         return count;
     }
 
+    //Test cases
     public static void main(String[] args) {
         System.out.println(countSegments("Hello, my name is John")); // 5
         System.out.println(countSegments("Hello"));                  // 1
