@@ -14,6 +14,7 @@ public class JumpGameIII {
         return dfs(arr, i + arr[i], visited) || dfs(arr, i - arr[i], visited);
     }
 
+    //Test cases
     public static void main(String[] args) {
         JumpGameIII sol = new JumpGameIII();
 
