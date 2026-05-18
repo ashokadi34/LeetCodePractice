@@ -16,6 +16,7 @@ public class ArrangingCoins {
         return (int) right;
     }
 
+    //Test cases
     public static void main(String[] args) {
         ArrangingCoins sol = new ArrangingCoins();
         System.out.println(sol.arrangeCoins(5));  // 2
