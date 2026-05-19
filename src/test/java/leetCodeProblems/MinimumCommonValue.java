@@ -16,7 +16,8 @@ public class MinimumCommonValue {
 
         return -1;
     }
-
+    
+    // Test cases
     public static void main(String[] args) {
         MinimumCommonValue sol = new MinimumCommonValue();
         System.out.println(sol.getCommon(new int[]{1,2,3}, new int[]{2,4}));          // 2
