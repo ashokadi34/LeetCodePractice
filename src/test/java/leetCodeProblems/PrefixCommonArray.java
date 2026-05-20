@@ -22,6 +22,7 @@ public class PrefixCommonArray {
         return ans;
     }
 
+    // Test cases
     public static void main(String[] args) {
         PrefixCommonArray sol = new PrefixCommonArray();
         System.out.println(Arrays.toString(sol.findThePrefixCommonArray(
