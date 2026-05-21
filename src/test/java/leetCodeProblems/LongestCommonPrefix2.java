@@ -29,6 +29,7 @@ public class LongestCommonPrefix2 {
         return ans;
     }
 
+    // Test cases
     public static void main(String[] args) {
         LongestCommonPrefix2 sol = new LongestCommonPrefix2();
 
