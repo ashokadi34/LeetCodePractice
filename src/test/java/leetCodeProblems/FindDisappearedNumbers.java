@@ -4,6 +4,7 @@ import java.util.*;
 
 public class FindDisappearedNumbers {
 
+	//findDisappearedNumbers
     public List<Integer> findDisappearedNumbers(int[] nums) {
         for (int num : nums) {
             int index = Math.abs(num) - 1;
