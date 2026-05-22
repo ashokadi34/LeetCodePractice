@@ -22,6 +22,7 @@ public class FindDisappearedNumbers {
         return result;
     }
 
+    //Test cases
     public static void main(String[] args) {
         FindDisappearedNumbers sol = new FindDisappearedNumbers();
 
