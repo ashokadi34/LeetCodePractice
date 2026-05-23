@@ -13,7 +13,7 @@ public class Check {
 
         return dropCount <= 1;
     }
-
+    // Test cases
     public static void main(String[] args) {
         Check sol = new Check();
 
