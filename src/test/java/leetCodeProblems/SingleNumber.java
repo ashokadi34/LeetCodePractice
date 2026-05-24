@@ -16,7 +16,7 @@ public class SingleNumber {
         }
         return ans;
     }
-
+    // Test cases
     public static void main(String[] args) {
         SingleNumber sol = new SingleNumber();
 
