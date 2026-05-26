@@ -23,6 +23,7 @@ public class NumberOfSpecialChars {
         return ans;
     }
 
+    //Test cases
     public static void main(String[] args) {
         NumberOfSpecialChars sol = new NumberOfSpecialChars();
 
