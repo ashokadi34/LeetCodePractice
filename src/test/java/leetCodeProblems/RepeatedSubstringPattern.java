@@ -11,6 +11,7 @@ public class RepeatedSubstringPattern {
         return inner.contains(s);
     }
 
+    // Test cases
     public static void main(String[] args) {
         RepeatedSubstringPattern sol = new RepeatedSubstringPattern();
 
