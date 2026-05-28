@@ -4,7 +4,7 @@ public class HammingDistance {
     public int hammingDistance(int x, int y) {
         return Integer.bitCount(x ^ y);
     }
-
+//Test cases
     public static void main(String[] args) {
         HammingDistance sol = new HammingDistance();
 
