@@ -22,6 +22,7 @@ public class MinElement {
         return sum;
     }
 
+    //Test cases
     public static void main(String[] args) {
         MinElement sol = new MinElement();
 
