@@ -2,6 +2,7 @@ package leetCodeProblems;
 
 public class MinElement {
 
+	// Function to find the minimum digit sum in the array
     public int minElement(int[] nums) {
         int min = Integer.MAX_VALUE;
 
@@ -12,7 +13,7 @@ public class MinElement {
 
         return min;
     }
-
+    // Helper function to calculate the digit sum of a number
     private int digitSum(int num) {
         int sum = 0;
         while (num > 0) {
