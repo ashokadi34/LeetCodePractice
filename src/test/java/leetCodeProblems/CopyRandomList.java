@@ -4,6 +4,7 @@ import java.util.*;
 
 public class CopyRandomList {
 
+	// Definition for a Node.
     static class Node {
         int val;
         Node next;
@@ -13,7 +14,7 @@ public class CopyRandomList {
             this.val = val;
         }
     }
-
+    // Approach: HashMap to store original to copied node mapping
     public Node copyRandomList(Node head) {
         if (head == null) return null;
 
@@ -35,7 +36,7 @@ public class CopyRandomList {
 
         return map.get(head);
     }
-
+    // Helper methods for testing
     static Node buildList(int[][] data) {
         if (data == null || data.length == 0) return null;
 
@@ -56,7 +57,7 @@ public class CopyRandomList {
 
         return nodes[0];
     }
-
+    // Print the list in the format [[val, randomIndex], ...]
     static void printList(Node head) {
         Map<Node, Integer> indexMap = new HashMap<>();
         Node curr = head;
@@ -78,7 +79,7 @@ public class CopyRandomList {
 
         System.out.println(result);
     }
-
+    // Test cases
     public static void main(String[] args) {
         CopyRandomList sol = new CopyRandomList();
 
