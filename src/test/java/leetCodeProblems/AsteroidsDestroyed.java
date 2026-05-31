@@ -19,6 +19,7 @@ public class AsteroidsDestroyed {
         return true;
     }
 
+    //	Test cases
     public static void main(String[] args) {
         AsteroidsDestroyed sol = new AsteroidsDestroyed();
 
