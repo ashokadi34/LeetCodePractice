@@ -25,7 +25,7 @@ public class MinimumCost {
         return totalCost;
     }
 
-    //Test cases
+    //Sample Test cases
     public static void main(String[] args) {
         MinimumCost sol = new MinimumCost();
 
