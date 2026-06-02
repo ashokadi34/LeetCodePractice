@@ -27,6 +27,7 @@ public class EarliestFinishTime {
         return minFinishTime;
     }
 
+    //Test cases
     public static void main(String[] args) {
         EarliestFinishTime sol = new EarliestFinishTime();
 
