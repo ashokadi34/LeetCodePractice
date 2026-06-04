@@ -35,6 +35,7 @@ public class TotalWaviness {
         return waviness;
     }
 
+    //Test cases
     public static void main(String[] args) {
         TotalWaviness sol = new TotalWaviness();
 
