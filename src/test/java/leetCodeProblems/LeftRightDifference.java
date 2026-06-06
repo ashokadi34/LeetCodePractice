@@ -22,6 +22,7 @@ public class LeftRightDifference {
         return answer;
     }
 
+    //Test cases
     public static void main(String[] args) {
         LeftRightDifference sol = new LeftRightDifference();
 
