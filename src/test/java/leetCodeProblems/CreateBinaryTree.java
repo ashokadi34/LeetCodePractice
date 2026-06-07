@@ -42,6 +42,7 @@ public class CreateBinaryTree {
         return null;
     }
 
+    //test cases
     public static void main(String[] args) {
         CreateBinaryTree sol = new CreateBinaryTree();
 
