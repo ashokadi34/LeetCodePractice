@@ -37,6 +37,7 @@ public class PivotArray {
         return result;
     }
 
+    //Test cases
     public static void main(String[] args) {
         PivotArray sol = new PivotArray();
 
