@@ -14,6 +14,7 @@ public class MaxTotalValue {
         return (long)(maxVal - minVal) * k;
     }
 
+    //Test cases
     public static void main(String[] args) {
         MaxTotalValue sol = new MaxTotalValue();
 
