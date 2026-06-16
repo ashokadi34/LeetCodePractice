@@ -22,6 +22,7 @@ public class ProcessStr {
         return result.toString();
     }
 
+    //test cases
     public static void main(String[] args) {
         ProcessStr sol = new ProcessStr();
 
