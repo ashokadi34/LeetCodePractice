@@ -9,6 +9,7 @@ public class AngleClock {
         return Math.min(diff, 360 - diff);
     }
 
+    //Test cases
     public static void main(String[] args) {
         AngleClock sol = new AngleClock();
 
