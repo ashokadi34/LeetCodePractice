@@ -11,7 +11,7 @@ public class AddDigitsLocal {
     }
 
     public static void main(String[] args) {
-        // Sample tests 
+        // Sample test cases
         System.out.println("Example 1: num = 38");
         System.out.println("Output: " + addDigits(38)); // Expected 2
 
