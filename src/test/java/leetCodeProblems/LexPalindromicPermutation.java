@@ -6,13 +6,13 @@ public class LexPalindromicPermutation {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.print("Enter the input (like - aac abb): ");
         String s = scanner.next();
         String target = scanner.next();
 
         String answer = lexPalindromicPermutation(s, target);
 
-        System.out.println(answer);
+        System.out.println("Output: "+answer);
 
         scanner.close();
     }
