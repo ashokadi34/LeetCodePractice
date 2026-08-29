@@ -8,6 +8,7 @@ public class LexicographicallySmallestArray {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Example Input: 5 1 5 3 9 8 2 || output: [1, 3, 5, 8, 9]");
         System.out.print("Enter the Input format like - n nums[0] nums[1] ... nums[n - 1] limit: ");
         int n = scanner.nextInt();
 
@@ -20,8 +21,10 @@ public class LexicographicallySmallestArray {
         int limit = scanner.nextInt();
 
         int[] answer = lexicographicallySmallestArray(nums, limit);
+        
+        String ans = Arrays.toString(answer);
 
-        System.out.println(Arrays.toString(answer));
+        System.out.println("Output: "+ans);
 
         scanner.close();
     }
