@@ -16,7 +16,7 @@ public class NodesBetweenCriticalPoints {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Example - Input: 7 / 5 3 1 2 5 1 2 || output: [1, 3]");
         int n = scanner.nextInt();
 
         ListNode head = null;
@@ -35,8 +35,10 @@ public class NodesBetweenCriticalPoints {
         }
 
         int[] answer = nodesBetweenCriticalPoints(head);
+        
+        String ans = Arrays.toString(answer);
 
-        System.out.println(Arrays.toString(answer));
+        System.out.println("Output: "+ans);
 
         scanner.close();
     }
