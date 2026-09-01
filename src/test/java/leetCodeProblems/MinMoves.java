@@ -7,7 +7,7 @@ public class MinMoves {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Example - Input: 2 2/LS/RL/4 || output: 3");
         int rows = scanner.nextInt();
         int cols = scanner.nextInt();
 
@@ -21,7 +21,7 @@ public class MinMoves {
 
         int answer = minMoves(classroom, energy);
 
-        System.out.println(answer);
+        System.out.println("Output: "+answer);
 
         scanner.close();
     }
