@@ -1,4 +1,6 @@
+package leetCodeProblems;
 public class ReverseDegreeOfString {
+	
 
     public static int reverseDegree(String s) {
         int sum = 0;
