@@ -67,6 +67,19 @@ public class NumberOfWaysToReorderArrayToGetSameBST {
             }
         }
     }
+	/*
+	Enter array size: 3
+	Enter 3 distinct integers from 1 to 3: 2 1 3
+	Output: 1
+	
+	Enter array size: 3
+	Enter 3 distinct integers from 1 to 3: 1 2 3
+	Output: 0
+	
+	Enter array size: 5
+	Enter 5 distinct integers from 1 to 5: 3 4 5 1 2
+	Output: 5
+	*/
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
