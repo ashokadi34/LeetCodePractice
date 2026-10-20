@@ -65,6 +65,20 @@ public class SumOfSortableIntegers {
 
         return true;
     }
+	
+	/*
+	Enter array size: 3
+	Enter 3 elements: 3 1 2
+	Output: 3
+
+	Enter array size: 3
+	Enter 3 elements: 7 6 5
+	Output: 0
+
+	Enter array size: 2
+	Enter 2 elements: 5 8
+	Output: 3
+	*/
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
