@@ -1,3 +1,6 @@
+package leetCodeProblems;
+
+
 import java.util.Scanner;
 
 public class MinimumOperationsToSortPermutation {
