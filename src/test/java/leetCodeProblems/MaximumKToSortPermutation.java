@@ -15,6 +15,23 @@ public class MaximumKToSortPermutation {
 
         return Math.max(answer, 0);
     }
+	
+	
+	/*
+	
+	Enter array size: 4
+	Enter 4 distinct integers from 0 to 3: 0 3 2 1
+	Output: 1
+	
+	Enter array size: 4
+	Enter 4 distinct integers from 0 to 3: 0 1 3 2
+	Output: 2
+	
+	Enter array size: 4
+	Enter 4 distinct integers from 0 to 3: 3 2 1 0
+	Output: 0
+	
+	*/
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
