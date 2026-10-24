@@ -34,6 +34,20 @@ public class CountDaysSpentTogether {
 
         return dayOfYear;
     }
+	
+	/*
+	Enter Alice arrival date (MM-DD): 08-15
+	Enter Alice leaving date (MM-DD): 08-18
+	Enter Bob arrival date (MM-DD): 08-16
+	Enter Bob leaving date (MM-DD): 08-19
+	Output: 3
+
+	Enter Alice arrival date (MM-DD): 10-01
+	Enter Alice leaving date (MM-DD): 10-31
+	Enter Bob arrival date (MM-DD): 11-01
+	Enter Bob leaving date (MM-DD): 12-31
+	Output: 0
+	*/
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
