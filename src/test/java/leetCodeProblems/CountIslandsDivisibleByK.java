@@ -52,6 +52,16 @@ public class CountIslandsDivisibleByK {
 
         return sum;
     }
+	
+	/*
+	Enter number of rows: 2
+	Enter number of columns: 4
+	Enter 8 grid values row by row:
+	3 0 3 0
+	0 3 0 3
+	Enter k: 3
+	Output: 6
+	*/
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
