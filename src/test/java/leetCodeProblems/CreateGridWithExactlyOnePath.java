@@ -27,6 +27,20 @@ public class CreateGridWithExactlyOnePath {
 
         return result;
     }
+	
+	
+	/*
+	Enter number of rows (m): 3
+	Enter number of columns (n): 3
+	Output:
+	...
+	##.
+	##.
+	
+	For this grid, the only valid path is:
+	(0,0) → (0,1) → (0,2) → (1,2) → (2,2)
+	
+	*/
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
