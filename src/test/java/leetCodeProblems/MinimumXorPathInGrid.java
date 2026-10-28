@@ -43,6 +43,28 @@ public class MinimumXorPathInGrid {
 
         return -1; // unreachable in valid inputs
     }
+	
+	/*
+	Enter number of rows: 2
+	Enter number of columns: 2
+	Enter 4 grid values row by row:
+	1 2
+	3 4
+	Output: 6
+	
+	Enter number of rows: 2
+	Enter number of columns: 2
+	Enter 4 grid values row by row:
+	6 7
+	5 8
+	Output: 9
+	
+	Enter number of rows: 1
+	Enter number of columns: 3
+	Enter 3 grid values row by row:
+	2 7 5
+	Output: 0
+	*/
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
