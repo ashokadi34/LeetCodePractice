@@ -3,7 +3,7 @@ package leetCodeProblems;
 
 import java.util.*;
 
-public class Main {
+public class PalindromePath {
     private int[] bit;
 
     public List<Boolean> palindromePath(
@@ -167,7 +167,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main solution = new Main();
+        PalindromePath solution = new PalindromePath();
 
         // Example 1
         int n1 = 3;
