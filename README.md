@@ -2,7 +2,7 @@
 
 A collection of solutions to LeetCode problems, organized to practice problem-solving skills and strengthen Data Structures and Algorithms (DSA) fundamentals.
 
-The repository includes **Easy, Medium, and Hard** problems, with solutions written primarily in **Java**.
+> The repository includes **Easy, Medium, and Hard** problems, with solutions written primarily in **Java**.
 
 ## Topics Covered
 
