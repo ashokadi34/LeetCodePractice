@@ -35,6 +35,7 @@ public class MinimumSumSubarray {
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 
+	// Local test cases 
     public static void main(String[] args) {
         List<Integer> nums1 = Arrays.asList(3, -2, 1, 4);
         System.out.println(minimumSumSubarray(nums1, 2, 3)); // Output: 1
