@@ -25,6 +25,7 @@ public class NumOfSubarrays {
         return (int) count;
     }
 
+	// Local test cases
     public static void main(String[] args) {
         int[] arr1 = {1, 3, 5};
         System.out.println(numOfSubarrays(arr1)); // Output: 4
